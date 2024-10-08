@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="GET">
+
+        <div class="nome">
+            <label for="name">NOME:</label>
+            <input id="name" name="name" type="text" maxlength="30" minlength="10" placeholder="Nome Completo" autocomplete="on" required>
+        </div>
+
+        <div class="idade">
+            <label for="idade">IDADE:</label>
+            <input id="idade" name="idade" type="number" max="99" min="18" placeholder="Sua idade" autocomplete="on" required>
+        </div>
+
+        <div class="sexo">
+            <label>SEXO:</label>
+            <input type="radio" name="sexo" id="masculino">
+            <label for="masculino">MASCULINO</label>
+            <input type="radio" name="sexo" id="feminino">
+            <label for="feminino">FEMININO</label>
+        </div>
+
+        <div class="cargo">
+            <label for="cargo">CARGO PROFISSIONAL:</label>
+            <select name="cargo" required="required">
+                <option value="none">Selecione a área em que você atua</option>
+                <option value="TI">Desenvolvedor de Software</option>
+                <option value="engenharia">Engenharia</option>
+                <option value="médico">Medicina</option>
+                <option value="cientista">Ciência</option>
+                <option value="Pedreiro">Pedreiro</option>
+        </div>
+
+    </form>
+</body>
+</html>
