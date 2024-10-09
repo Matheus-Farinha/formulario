@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../formulario/css.css">
 </head>
 <body>
-    <form action="#" method="GET">
+    <form class="formulario">
 
         <div class="nome">
             <label for="name">NOME:</label>
-            <input id="name" name="name" type="text" maxlength="30" minlength="10" placeholder="Nome Completo" autocomplete="on" required>
+            <input id="name" name="name" type="text" maxlength="30" minlength="10" placeholder="Nome Completo" autocomplete="on" required autofocus>
         </div>
 
         <div class="idade">
             <label for="idade">IDADE:</label>
-            <input id="idade" name="idade" type="number" max="99" min="18" placeholder="Sua idade" autocomplete="on" required>
+            <input id="idade" name="idade" type="number" max="99" min="18" placeholder="Sua idade" autocomplete="on" required >
         </div>
 
         <div class="sexo">
@@ -28,14 +29,20 @@
 
         <div class="cargo">
             <label for="cargo">CARGO PROFISSIONAL:</label>
-            <select name="cargo" required="required">
+            <select name="cargo" required="required" >
                 <option value="none">Selecione a área em que você atua</option>
                 <option value="TI">Desenvolvedor de Software</option>
                 <option value="engenharia">Engenharia</option>
                 <option value="médico">Medicina</option>
                 <option value="cientista">Ciência</option>
                 <option value="Pedreiro">Pedreiro</option>
+            </select>
+                <div class="descricao">
+                    <textarea rows="6" cols="60" style="resize:none" placeholder="Descreva sua função"></textarea>
+                </div>
         </div>
+
+        <button>Enviar</button>
 
     </form>
 </body>
