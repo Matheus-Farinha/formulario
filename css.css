@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-image: url(pexels-quang-nguyen-vinh-222549-2176593.jpg);
+    opacity: 1;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  
+}
+
+.nome {
+    padding: 10px;
+}
+
+.idade {
+    padding: 10px;
+}
+
+.sexo {
+    padding: 10px;
+}
+
+.cargo {
+    padding: 10px;
+}
+
+select {
+    margin-top: 10px;
+}
+
+.descricao {
+    margin-top: 20px;
+}
+
+button {
+    width: 70px;
+    padding: 5px;
+    margin-left: 10px;
+}
