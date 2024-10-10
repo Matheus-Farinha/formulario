@@ -3,9 +3,9 @@
     margin: 0;
 }
 
-html {
+body {
     background-image: url(pexels-quang-nguyen-vinh-222549-2176593.jpg);
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .formulario {
@@ -19,6 +19,7 @@ html {
     border: 1px solid black;
     border-radius: 6px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    opacity: 1;
   
 }
 
